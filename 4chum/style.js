@@ -3,8 +3,8 @@
 		"style": "background-color: #ffeef2ff; font-family: arial; font-size: 10pt; color: #ff000000; ",
 		"background-image": "$path/pcbg.png",
 		"size": [
-			300,
-			620
+			785,
+			500
 		],
 		"icon": "$path/trayicon.png",
 		"newmsgicon": "$path/trayicon2.png",
@@ -12,27 +12,27 @@
 		"close": {
 			"image": "$path/x.png",
 			"loc": [
-				278,
+				765,
 				5
 			]
 		},
 		"minimize": {
 			"image": "$path/m.png",
 			"loc": [
-				258,
+				735,
 				5
 			]
 		},
 		"menubar": {
-			"style": "font-family: arial; font-size: 10pt; color: #ff000000; background-color: #ffeef2ff; "
+			"style": "font-family: arial; font-size: 10pt; color: #ff000000; background-color: #00eef2ff; "
 		},
 		"menu": {
 			"style": "font-family: arial; font-size: 10pt; color: #ff000000; background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 			"menuitem": "",
 			"selected": "background-color: #ffeeaa88; ",
 			"loc": [
-				0,
-				32
+				215,
+				0
 			]
 		},
 		"sounds": {
@@ -88,12 +88,12 @@
 		"chums": {
 			"style": "background-color: #fff0e0d6; border: 1px solid #D9BFB7; font-family: arial; font-size: 10pt; selection-background-color: #ffd6daf0; selection-color: #000000; ",
 			"loc": [
-				12,
-				117
+				10,
+				145
 			],
 			"size": [
-				276,
-				275
+				283,
+				298
 			],
 			"userlistcolor": "#ff000080",
 			"moods": {
@@ -214,15 +214,15 @@
 				"text": "ANONHANDLE:",
 				"style": "color: #ff000080; font-family: arial; font-weight: bold; background-color: #ffffffff; ",
 				"loc": [
-					12,
-					398
+					10,
+					445
 				]
 			},
 			"handle": {
 				"style": "background-color: #ffffffff; padding: 3px; padding-left: 5px; color: #ff000000; font-family: arial; border: 1px solid #B7C5D9; font-weight: bold; ",
 				"loc": [
-					100,
-					395
+					105,
+					445
 				],
 				"size": [
 					188,
@@ -231,18 +231,18 @@
 			},
 			"colorswatch": {
 				"loc": [
-					262,
-					420
+					265,
+					470
 				],
 				"size": [
 					26,
-					20
+					24
 				],
 				"text": ""
 			},
 			"currentMood": [
-				190,
-				5
+				245,
+				20
 			]
 		},
 		"defaultwindow": {
@@ -252,11 +252,11 @@
 			"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; font-family: arial; font-size: 10pt; color: #ff000000; padding: 3px; ",
 			"pressed": "background-color: #ffeeaa88; ",
 			"loc": [
-				12,
-				445
+				5,
+				470
 			],
 			"size": [
-				76,
+				81,
 				24
 			],
 			"text": "ANON +1"
@@ -265,11 +265,11 @@
 			"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; font-family: arial; font-size: 10pt; color: #ff000000; padding: 3px; ",
 			"pressed": "background-color: #ffeeaa88; ",
 			"loc": [
-				87,
-				445
+				85,
+				470
 			],
 			"size": [
-				100,
+				97,
 				24
 			],
 			"text": "PESTER"
@@ -278,11 +278,11 @@
 			"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; font-family: arial; font-size: 10pt; color: #ff000000; padding: 3px; ",
 			"pressed": "background-color: #ffeeaa88; ",
 			"loc": [
-				186,
-				445
+				180,
+				470
 			],
 			"size": [
-				100,
+				85,
 				24
 			],
 			"text": "BLOCK"
@@ -294,15 +294,15 @@
 				12,
 				473
 			],
-			"text": "MOOD:"
+			"text": ""
 		},
 		"moods": [
 			{
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					10,
-					485
+					320,
+					170
 				],
 				"size": [
 					44,
@@ -316,8 +316,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					85,
-					485
+					560,
+					345
 				],
 				"size": [
 					44,
@@ -331,8 +331,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					40,
-					575
+					320,
+					255
 				],
 				"size": [
 					44,
@@ -346,8 +346,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					100,
-					575
+					720,
+					435
 				],
 				"size": [
 					44,
@@ -361,8 +361,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					235,
-					485
+					320,
+					430
 				],
 				"size": [
 					44,
@@ -376,8 +376,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					20,
-					530
+					400,
+					415
 				],
 				"size": [
 					44,
@@ -391,8 +391,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					150,
-					575
+					720,
+					260
 				],
 				"size": [
 					44,
@@ -406,8 +406,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					90,
-					530
+					560,
+					165
 				],
 				"size": [
 					44,
@@ -421,8 +421,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					165,
-					485
+					480,
+					260
 				],
 				"size": [
 					44,
@@ -436,8 +436,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					225,
-					530
+					565,
+					435
 				],
 				"size": [
 					44,
@@ -451,8 +451,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					210,
-					575
+					480,
+					425
 				],
 				"size": [
 					44,
@@ -466,8 +466,8 @@
 				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
 				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
 				"loc": [
-					160,
-					530
+					640,
+					325
 				],
 				"size": [
 					44,
@@ -476,6 +476,171 @@
 				"text": "",
 				"icon": "$path/sleek.png",
 				"mood": 11
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					480,
+					170
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/detestful.png",
+				"mood": 12
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					320,
+					330
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/mirthful.png",
+				"mood": 13
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					640,
+					420
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/manipulative.png",
+				"mood": 14
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					730,
+					170
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/vigorous.png",
+				"mood": 15
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					725,
+					335
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/perky.png",
+				"mood": 16
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					560,
+					245
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/acceptant.png",
+				"mood": 17
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					400,
+					240
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/protective.png",
+				"mood": 18
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					480,
+					330
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/mystified.png",
+				"mood": 19
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					405,
+					325
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/amazed.png",
+				"mood": 20
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					645,
+					160
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/insolent.png",
+				"mood": 21
+			},
+			{
+				"style": "background-color: #ffd6daf0; border: 1px solid #B7C5D9; ",
+				"selected": "background-color: #ffeeaa88; border: 1px solid #B7C5D9; ",
+				"loc": [
+					640,
+					235
+				],
+				"size": [
+					44,
+					44
+				],
+				"text": "",
+				"icon": "$path/bemused.png",
+				"mood": 22
 			}
 		]
 	},
