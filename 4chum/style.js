@@ -289,10 +289,10 @@
 		},
 		"defaultmood": 0,
 		"moodlabel": {
-			"style": "font-family: arial; font-size: 10pt; color: #ff000080; font-weight: bold; background-color: #ffffffff; ",
+			"style": "font-size: 0pt; font-weight: bold; ",
 			"loc": [
-				12,
-				473
+				0,
+				0
 			],
 			"text": ""
 		},
